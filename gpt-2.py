@@ -5,6 +5,7 @@ import argparse
 # Добавляем импорт AutoTokenizer из библиотеки HuggingFace transformers
 from transformers import AutoTokenizer
 
+# https://github.com/rasbt/LLMs-from-scratch/tree/main/ch05/01_main-chapter-code
 from previous_chapters import GPTModel
 
 def generate_text_simple(model, idx, max_new_tokens, context_size):
